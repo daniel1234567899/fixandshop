@@ -102,6 +102,7 @@ h6 a:hover {
 }
 p{
 	text-align: justify;
+	    line-height: 18px;
 }
     .heading-title p {
         text-align: center;
@@ -125,6 +126,22 @@ a,
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     
+}
+[type=submit]{
+	background: #d52c40;
+	color: #fff;
+	font-weight: 800;
+}
+input, select{
+	width: 100%;
+    border: 2px solid #d52c40;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 0 10px;
+}
+
+label {
+	font-weight: 700;
 }
 .btn {
 	color: #fff;
@@ -157,6 +174,11 @@ blockquote {
 
 ul{
 	padding: 0 20px;
+	text-align: justify;
+	line-height: 20px;
+}
+li{
+	padding: 0 0 10px;
 }
 button:focus{
 	outline: none;
