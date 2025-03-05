@@ -1450,6 +1450,7 @@ blockquote {
 	object-position: center;
     object-fit: cover;
     max-height: 200px;
+    border-radius: 20px;
 }
 
 
