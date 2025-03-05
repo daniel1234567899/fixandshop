@@ -1446,7 +1446,11 @@ blockquote {
  }
 
 
-
+.img-fit{
+	object-position: center;
+    object-fit: cover;
+    max-height: 200px;
+}
 
 
 
