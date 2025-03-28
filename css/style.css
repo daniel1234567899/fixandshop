@@ -1379,6 +1379,7 @@ blockquote {
     text-decoration: none;
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
+	display:none;
 }
 
 .carousel-item p{
@@ -1455,7 +1456,7 @@ blockquote {
     height:70px;
     color:#fff;
     position: fixed;
-    left:5px;
+    right:5px;
     bottom:10px;
     border-radius:50%;
     line-height:80px;
